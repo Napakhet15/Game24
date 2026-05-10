@@ -1,9 +1,3 @@
-"""
-game_stats.py
-reads game_log.csv and calculates stats for the statistics page
-returns plain lists and dicts - no UI code here
-"""
-
 import csv
 import math
 import os
@@ -18,7 +12,7 @@ class StatisticsManager:
         self._csv_path = csv_path
 
     def get_summary_stats(self, username: str) -> dict:
-        # calculate mean, median, min, max, stdev for attempts and hints_used
+        # calculate 
         logs = self._get_logs(username)
         if not logs:
             return {"attempts": {}, "hints_used": {}}
@@ -36,15 +30,15 @@ class StatisticsManager:
         }
 
     def get_attempts_distribution(self, username: str) -> list:
-        # return list of attempts values for histogram
+        # histogram
         return [self._int(row, "attempts") for row in self._get_logs(username)]
 
     def get_time_series(self, username: str) -> list:
-        # return time_used values in session order for line chart
+        # line chart
         return [self._float(row, "time_used") for row in self._get_logs(username)]
 
     def get_scatter_data(self, username: str) -> list:
-        # return attempts and time_used pairs for scatter plot
+        # scatter plot
         return [
             {
                 "attempts":  self._int(row, "attempts"),
@@ -54,7 +48,7 @@ class StatisticsManager:
         ]
 
     def get_win_ratio(self, username: str) -> dict:
-        # return win/loss count and win rate percentage for pie chart
+        # pie chart
         logs     = self._get_logs(username)
         total    = len(logs)
         wins     = sum(1 for row in logs if self._int(row, "won") == 1)
@@ -63,11 +57,10 @@ class StatisticsManager:
         return {"wins": wins, "losses": losses, "win_rate": win_rate}
 
     def get_hints_bar(self, username: str) -> list:
-        # return hints_used per session for bar chart
+        # bar chart
         return [self._int(row, "hints_used") for row in self._get_logs(username)]
 
     def _get_logs(self, username: str) -> list:
-        # read CSV and return only rows for this user
         username = username.strip()
         if not username:
             return []
@@ -86,7 +79,6 @@ class StatisticsManager:
             return []
 
     def _read_logs(self) -> list:
-        # read all rows unfiltered
         if not os.path.isfile(self._csv_path):
             return []
         try:
@@ -99,14 +91,13 @@ class StatisticsManager:
         return self._get_logs(username)
 
     def _compute_stats(self, values: list) -> dict:
-        # calculate basic statistics for a list of numbers
+        # calculate statistics
         if not values:
             return {}
 
         n    = len(values)
         mean = sum(values) / n
 
-        # find median
         sorted_values = sorted(values)
         mid           = n // 2
         if n % 2 == 1:
@@ -114,7 +105,6 @@ class StatisticsManager:
         else:
             median = (sorted_values[mid - 1] + sorted_values[mid]) / 2.0
 
-        # calculate standard deviation
         variance = sum((v - mean) ** 2 for v in values) / n
         stdev    = math.sqrt(max(0.0, variance))
 
@@ -127,14 +117,12 @@ class StatisticsManager:
         }
 
     def _int(self, row: dict, field: str) -> int:
-        # safely get int from CSV row, return 0 if fails
         try:
             return int(str(row.get(field, 0)).strip())
         except (ValueError, TypeError):
             return 0
 
     def _float(self, row: dict, field: str) -> float:
-        # safely get float from CSV row, return 0.0 if fails
         try:
             return float(str(row.get(field, 0.0)).strip())
         except (ValueError, TypeError):

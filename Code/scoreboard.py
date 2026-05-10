@@ -1,8 +1,3 @@
-"""
-scoreboard.py
-saves player scores and keeps top 20 in scoreboard.json
-"""
-
 import json
 import os
 
@@ -16,7 +11,7 @@ class ScoreboardManager:
         self.path = path
 
     def add_score(self, username: str, score: int, mode: str):
-        # add new score, sort and trim to top 20
+        # top 20
         entries = self._load()
 
         entries.append({
@@ -29,7 +24,6 @@ class ScoreboardManager:
         self._save(entries)
 
     def _load(self) -> list:
-        # read scoreboard.json, return empty list if file not found
         if not os.path.isfile(self.path):
             return []
 
@@ -40,13 +34,12 @@ class ScoreboardManager:
             return []
 
     def _save(self, entries: list):
-        # write entries to scoreboard.json
         os.makedirs(os.path.dirname(self.path), exist_ok=True)
 
         with open(self.path, "w", encoding="utf-8") as f:
             json.dump(entries, f, indent=2)
 
     def _trim_top_20(self, entries: list) -> list:
-        # sort by score and keep only top 20
+        # sort score top 20
         sorted_entries = sorted(entries, key=lambda e: e["score"], reverse=True)
         return sorted_entries[:20]

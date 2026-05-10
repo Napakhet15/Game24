@@ -1,19 +1,15 @@
-"""
-game_session.py
-manages one game round from start to finish
-tracks attempts, time, hints and writes to game_log.csv when done
-"""
-
 import csv
+import datetime
 import os
 import time
+import re
 
 from math_engine      import MathEngine
 from puzzle           import Puzzle
 from score_calculator import ScoreCalculator
 
 
-CSV_COLUMNS = ["username", "score", "mode", "won", "time_used", "attempts", "hints_used"]
+CSV_COLUMNS = ["username", "score", "mode", "won", "time_used", "attempts", "hints_used", "timestamp"]
 CSV_PATH    = os.path.join(os.path.dirname(__file__), "..", "data", "game_log.csv")
 
 
@@ -24,28 +20,27 @@ class GameSession:
         self.mode        = mode
         self.mode_config = mode_config
 
-        # puzzle data - filled when start() is called
+        # puzzle data
         self.numbers = []
         self.target  = 0
 
-        # session stats
+        # stats
         self.attempts   = 0
         self.hints_used = 0
         self.time_used  = 0.0
         self.score      = 0
-        self.won        = 0  # 1 = win, 0 = loss
+        self.won        = 0  # 1 = win 0 = loss
 
-        # internal
         self._start_time = None
-        self._active     = False  # prevents double end_game() calls
+        self._active     = False 
         self._puzzle     = None
 
-        # create engine - advanced mode enables ^ and sqrt
+        # ^ and sqrt
         self._engine     = MathEngine(advanced_mode=mode_config.get("advanced", False))
         self._score_calc = ScoreCalculator()
 
     def start(self):
-        # reset counters and generate a new puzzle
+        # reset
         self.attempts   = 0
         self.hints_used = 0
         self.score      = 0
@@ -63,14 +58,14 @@ class GameSession:
         self._active     = True
 
     def submit(self, expression: str) -> dict:
-        # evaluate player's expression and check if correct
+        # check
         if not self._active:
             return {"correct": False, "result": None, "error": "Game is not active"}
 
-        # count every submit attempt
+        # count submit attempt
         self.attempts += 1
 
-        # check player used exactly the right numbers
+        # check used right numbers
         number_error = self._check_numbers_used(expression)
         if number_error:
             return {"correct": False, "result": None, "error": number_error}
@@ -85,38 +80,35 @@ class GameSession:
             return {"correct": False, "result": None, "error": str(e)}
 
     def _check_numbers_used(self, expression: str) -> str:
-        # extract numbers from expression and validate against puzzle numbers
-        import re
 
         found = [int(float(n)) for n in re.findall(r"\d+(?:\.\d+)?", expression)]
 
-        # delegate check to puzzle
+        # check to puzzle
         return self._puzzle.validate(found)
 
     def use_hint(self) -> int:
-        # give player a hint - return one of the puzzle numbers
+        # give hint
         if not self.numbers:
             return None
 
         self.hints_used += 1
 
-        # return next number as hint
+        # next number hint
         index = min(self.hints_used - 1, len(self.numbers) - 1)
         return self.numbers[index]
 
     def end_game(self, won: bool):
-        # stop timer, calculate score and save to CSV
+        # stop timer
         if not self._active:
             return
         self._active = False
 
-        # stop timer
         elapsed        = time.time() - self._start_time
         self.time_used = max(0.0, round(elapsed, 2))
 
         self.won = 1 if won else 0
 
-        # calculate final score
+        # calculate score
         self.score = self._score_calc.calculate_score(
             mode       = self.mode,
             won        = won,
@@ -125,11 +117,9 @@ class GameSession:
             hints_used = self.hints_used,
         )
 
-        # write to log file
         self._write_log()
 
     def _write_log(self):
-        # append one row to game_log.csv
         os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
 
         file_exists = os.path.isfile(CSV_PATH)
@@ -137,7 +127,6 @@ class GameSession:
         with open(CSV_PATH, "a", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS)
 
-            # write header only if file is new
             if not file_exists:
                 writer.writeheader()
 
@@ -149,4 +138,5 @@ class GameSession:
                 "time_used":  self.time_used,
                 "attempts":   self.attempts,
                 "hints_used": self.hints_used,
+                "timestamp":  datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             })

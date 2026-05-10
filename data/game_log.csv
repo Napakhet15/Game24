@@ -1,151 +1,296 @@
-username,score,mode,won,time_used,attempts,hints_used
-kkk,111,classic,1,24.14,1,0
-kkk,126,speed,1,16.66,1,0
-kkk,100,hard,1,98.52,1,0
-kkk,0,classic,0,2.31,1,1
-kkk,0,hard,0,3.26,1,2
-portee,100,classic,1,53.15,1,0
-portee,0,speed,0,40.22,1,0
-portee,80,speed,1,55.72,1,2
-2Jing,0,classic,0,77.67,1,0
-2Jing,70,classic,1,56.27,3,2
-2Jing,90,classic,1,103.38,1,1
-Kiro,123,classic,1,13.2,3,0
-Kiro,90,classic,1,53.68,3,0
-Kiro,100,classic,1,89.94,1,0
-Kiro,0,classic,0,82.56,1,2
-Kengwa,87,speed,1,26.1,1,2
-Kengwa,132,speed,1,8.83,1,1
-Kengwa,80,classic,1,112.42,1,2
-Kengwa,0,classic,0,77.99,1,1
-Kengwa,0,classic,0,84.01,1,0
-Wan,85,speed,1,43.19,4,0
-Wan,75,speed,1,41.14,2,2
-Wan,0,classic,0,49.32,1,0
-kao,65,classic,1,114.59,4,2
-kao,0,classic,0,112.77,1,2
-kao,100,classic,1,33.63,1,0
-kao,100,classic,1,57.01,1,0
-kao,0,hard,0,74.28,2,2
-plug,100,speed,1,19.56,1,2
-plug,0,hard,0,134.2,1,0
-plug,94,speed,1,20.05,2,2
-plug,0,classic,0,113.19,1,2
-ping,80,speed,1,58.92,1,2
-ping,115,classic,1,19.79,2,0
-ping,100,speed,1,37.06,1,0
-Lyan1111,0,classic,0,54.65,2,0
-Lyan1111,114,classic,1,22.54,1,0
-Lyan1111,127,classic,1,16.14,1,0
-Lyan1111,70,classic,1,105.82,3,2
-Lyan1111,0,classic,0,66.13,1,2
-Chawee,125,classic,1,17.16,1,0
-Chawee,0,classic,0,18.21,2,0
-Chawee,100,classic,1,41.75,1,0
-Chawee,90,classic,1,82.48,3,0
-Chawee,0,speed,0,50.38,1,0
-Juno,0,speed,0,14.16,3,1
-Juno,0,classic,0,78.0,1,0
-Juno,95,classic,1,45.21,2,0
-Juno,80,classic,1,36.96,3,1
-Juno,0,speed,0,36.17,2,1
-Masmas,0,speed,0,13.88,3,0
-Masmas,126,classic,1,16.92,1,0
-Masmas,0,classic,0,107.14,3,0
-Jeeppu,117,classic,1,16.35,1,1
-Jeeppu,0,speed,0,49.3,4,0
-Jeeppu,80,classic,1,86.91,1,2
-Jeeppu,95,classic,1,89.29,2,0
-Luma,100,classic,1,81.96,1,0
-Luma,80,classic,1,102.47,1,2
-Luma,95,classic,1,31.79,2,0
-Luma,85,hard,1,170.54,4,0
-lookpeach,95,classic,1,63.64,2,0
-lookpeach,0,classic,0,64.34,2,0
-lookpeach,0,classic,0,30.75,1,2
-lookpeach,0,classic,0,30.13,1,1
-Kongji,0,hard,0,41.59,1,0
-Kongji,123,speed,1,18.29,1,0
-Kongji,100,classic,1,113.88,1,0
-hana,0,hard,0,57.77,3,1
-hana,100,classic,1,90.37,1,0
-hana,80,classic,1,33.4,1,2
-hana,100,classic,1,102.16,1,0
-plam,102,classic,1,28.57,1,0
-plam,100,classic,1,94.14,1,0
-plam,95,classic,1,65.69,2,0
-plam,90,classic,1,88.9,3,0
-plam,0,classic,0,35.73,1,0
-Thee,0,speed,0,18.37,1,0
-Thee,0,classic,0,20.38,1,1
-Thee,0,classic,0,109.43,2,0
-Nam1,80,hard,1,120.75,1,2
-Nam1,111,classic,1,19.36,3,0
-Nam1,0,classic,0,21.19,1,0
-Nam1,0,classic,0,32.78,3,1
-JJay,75,classic,1,35.55,2,2
-JJay,90,classic,1,31.78,1,1
-JJay,93,classic,1,23.31,3,1
-kin,90,classic,1,114.45,1,1
-kin,0,speed,0,45.02,1,1
-kin,95,classic,1,107.95,2,0
-kin,0,hard,0,75.99,1,0
-kikurno,90,classic,1,32.56,1,1
-kikurno,105,classic,1,19.62,2,1
-kikurno,100,classic,1,74.72,1,0
-kikurno,80,classic,1,33.07,3,1
-kikurno,100,classic,1,88.47,1,0
-Milo,85,classic,1,46.95,4,0
-Milo,100,classic,1,82.06,1,0
-Milo,95,classic,1,87.93,2,0
-Masmas,85,speed,1,49.6,2,1
-Masmas,0,speed,0,38.21,2,1
-Masmas,143,speed,1,5.9,2,0
-Masmas,85,classic,1,115.14,2,1
-Wan,90,classic,1,90.48,1,1
-Wan,122,classic,1,16.35,2,0
-Wan,75,classic,1,52.24,2,2
-Wan,0,classic,0,118.03,1,0
-Wan,0,speed,0,25.22,1,0
-Wan,0,classic,0,43.25,3,0
-Lyan1111,0,classic,0,52.73,1,2
-Lyan1111,113,classic,1,23.41,1,0
-Lyan1111,85,classic,1,52.07,4,0
-Lyan1111,127,classic,1,16.44,1,0
-Lyan1111,131,classic,1,14.07,1,0
-Nam1,0,classic,0,118.01,1,2
-Nam1,0,speed,0,57.0,1,0
-Nam1,98,classic,1,25.86,1,1
-Nam1,0,classic,0,15.17,1,0
-Chawee,0,classic,0,38.1,1,0
-Chawee,0,classic,0,111.72,2,0
-Chawee,0,classic,0,95.78,1,0
-Chawee,85,classic,1,60.71,2,1
-kikurno,0,classic,0,35.4,1,0
-kikurno,0,hard,0,163.22,4,2
-kikurno,95,classic,1,95.18,2,0
-kikurno,70,classic,1,73.51,3,2
-kikurno,80,classic,1,49.65,3,1
-kikurno,100,classic,1,69.92,1,0
-JJay,90,speed,1,31.32,1,1
-JJay,85,speed,1,31.37,2,1
-JJay,80,classic,1,109.66,3,1
-JJay,100,classic,1,44.37,1,0
-portee,134,classic,1,12.65,1,0
-portee,100,speed,1,45.23,1,0
-portee,85,speed,1,35.51,2,1
-portee,95,classic,1,118.42,2,0
-Lyan1111,128,classic,1,15.62,1,0
-Lyan1111,0,classic,0,72.48,1,2
-Lyan1111,91,classic,1,21.67,4,1
-kkk,85,speed,1,44.17,4,0
-kkk,117,classic,1,21.3,1,0
-kkk,0,hard,0,105.85,4,1
-kkk,0,hard,0,160.83,1,0
-portee,0,hard,0,51.51,2,1
-portee,100,classic,1,62.12,1,0
-portee,95,classic,1,78.38,2,0
-portee,0,hard,0,98.18,1,0
-portee,0,classic,0,45.95,1,0
-portee,92,speed,1,28.63,1,1
-Kongji,125,speed,1,12.36,1,1
+username,score,mode,won,time_used,attempts,hints_used,timestamp
+hana,100,classic,1,102.16,1,0,
+Lyan1111,70,classic,1,105.82,3,2,
+Nam1,0,classic,0,118.01,1,2,
+lookpeach,95,classic,1,63.64,2,0,
+Luma,95,classic,1,31.79,2,0,
+JJay,85,speed,1,31.37,2,1,
+Lyan1111,0,classic,0,54.65,2,0,
+Nam1,98,classic,1,25.86,1,1,
+Juno,0,speed,0,36.17,2,1,
+Thee,0,classic,0,20.38,1,1,
+kin,90,classic,1,114.45,1,1,
+portee,92,speed,1,28.63,1,1,
+Lyan1111,85,classic,1,52.07,4,0,
+portee,100,classic,1,62.12,1,0,
+Chawee,90,classic,1,82.48,3,0,
+Kongji,0,hard,0,41.59,1,0,
+plug,0,hard,0,134.2,1,0,
+Kongji,100,classic,1,113.88,1,0,
+2Jing,0,classic,0,77.67,1,0,
+plug,0,classic,0,113.19,1,2,
+Kiro,100,classic,1,89.94,1,0,
+kikurno,100,classic,1,69.92,1,0,
+kikurno,80,classic,1,33.07,3,1,
+Lyan1111,0,classic,0,72.48,1,2,
+Luma,85,hard,1,170.54,4,0,
+Wan,0,classic,0,43.25,3,0,
+kikurno,100,classic,1,88.47,1,0,
+kikurno,100,classic,1,74.72,1,0,
+JJay,75,classic,1,35.55,2,2,
+kkk,122,classic,1,18.86,1,0,
+Masmas,126,classic,1,16.92,1,0,
+kin,0,speed,0,45.02,1,1,
+portee,80,speed,1,55.72,1,2,
+plam,95,classic,1,65.69,2,0,
+hana,0,hard,0,57.77,3,1,
+Milo,85,classic,1,46.95,4,0,
+Masmas,143,speed,1,5.9,2,0,
+kin,0,hard,0,75.99,1,0,
+kao,0,classic,0,112.77,1,2,
+kkk,117,classic,1,21.38,1,0,
+Jeeppu,117,classic,1,16.35,1,1,
+lookpeach,0,classic,0,64.34,2,0,
+Milo,95,classic,1,87.93,2,0,
+Luma,80,classic,1,102.47,1,2,
+Jeeppu,95,classic,1,89.29,2,0,
+Masmas,85,speed,1,49.6,2,1,
+kkk,0,hard,0,3.26,1,2,
+kao,100,classic,1,57.01,1,0,
+JJay,90,speed,1,31.32,1,1,
+Lyan1111,113,classic,1,23.41,1,0,
+kkk,116,classic,1,19.06,2,0,
+kkk,130,classic,1,14.81,1,0,
+Juno,0,classic,0,78.0,1,0,
+Kengwa,132,speed,1,8.83,1,1,
+kkk,100,hard,1,98.52,1,0,
+Thee,0,speed,0,18.37,1,0,
+Chawee,125,classic,1,17.16,1,0,
+Masmas,85,classic,1,115.14,2,1,
+Thee,0,classic,0,109.43,2,0,
+kao,65,classic,1,114.59,4,2,
+Masmas,0,classic,0,107.14,3,0,
+Chawee,0,classic,0,38.1,1,0,
+Wan,85,speed,1,43.19,4,0,
+kkk,85,speed,1,44.17,4,0,
+portee,95,classic,1,118.42,2,0,
+portee,100,speed,1,45.23,1,0,
+portee,100,classic,1,53.15,1,0,
+Wan,0,classic,0,118.03,1,0,
+portee,0,speed,0,40.22,1,0,
+kkk,117,classic,1,21.3,1,0,
+2Jing,70,classic,1,56.27,3,2,
+portee,0,classic,0,45.95,1,0,
+kkk,139,classic,1,10.45,1,0,
+Nam1,111,classic,1,19.36,3,0,
+Wan,0,speed,0,25.22,1,0,
+Lyan1111,114,classic,1,22.54,1,0,
+kkk,119,classic,1,20.47,1,0,
+Lyan1111,131,classic,1,14.07,1,0,
+kkk,123,classic,1,18.42,1,0,
+kkk,0,practice,1,79.3,2,0,
+Milo,100,classic,1,82.06,1,0,
+kkk,0,hard,0,160.83,1,0,
+hana,100,classic,1,90.37,1,0,
+Lyan1111,128,classic,1,15.62,1,0,
+portee,85,speed,1,35.51,2,1,
+Lyan1111,91,classic,1,21.67,4,1,
+ping,115,classic,1,19.79,2,0,
+Wan,122,classic,1,16.35,2,0,
+kkk,139,classic,1,10.38,1,0,
+plam,100,classic,1,94.14,1,0,
+Eng,95,classic,1,119.49,2,0,
+Kae,75,hard,1,66.3,2,2,
+Lanna,80,hard,1,88.98,1,2,
+Chawee,85,classic,1,60.71,2,1,
+kkk,136,classic,1,11.75,1,0,
+Nam1,0,classic,0,15.17,1,0,
+plug,100,speed,1,19.56,1,2,
+Janemiiiii,0,speed,0,17.05,3,2,
+Nongfai,0,classic,0,40.85,3,0,
+kkk,138,classic,1,10.65,1,0,
+Tomkai,90,hard,1,37.38,3,0,
+JJay,90,classic,1,31.78,1,1,
+Masmas,0,speed,0,13.88,3,0,
+Lyan1111,0,classic,0,52.73,1,2,
+Tomkai,100,classic,1,107.32,1,0,
+Chawee,0,classic,0,18.21,2,0,
+Janemiiiii,0,hard,0,61.19,2,0,
+Tomkai,90,classic,1,85.53,1,1,
+kikurno,70,classic,1,73.51,3,2,
+JJay,80,classic,1,109.66,3,1,
+Wan,75,speed,1,41.14,2,2,
+Chawee,0,classic,0,111.72,2,0,
+kkk,126,classic,1,14.17,2,0,
+kkk,118,classic,1,20.95,1,0,
+kkk,126,speed,1,16.66,1,0,
+plam,102,classic,1,28.57,1,0,
+2Jing,90,classic,1,103.38,1,1,
+Prayyyy,90,classic,1,41.2,3,0,
+kkk,0,hard,0,105.85,4,1,
+Nongfai,80,hard,1,59.02,1,2,
+kikurno,0,hard,0,163.22,4,2,
+Wan,0,classic,0,49.32,1,0,
+Kae,117,classic,1,21.08,1,0,
+Janemiiiii,0,hard,0,113.99,1,1,
+Nanny,100,speed,1,116.52,1,0,
+Nanny,75,classic,1,86.35,2,2,
+JJay,100,classic,1,44.37,1,0,
+Chawee,0,classic,0,95.78,1,0,
+kikurno,0,classic,0,35.4,1,0,
+ping,100,speed,1,37.06,1,0,
+kkk,111,classic,1,24.14,1,0,
+Nam1,0,classic,0,32.78,3,1,
+plam,0,classic,0,35.73,1,0,
+kikurno,105,classic,1,19.62,2,1,
+kkk,128,classic,1,13.31,2,0,
+Masmas,0,speed,0,38.21,2,1,
+kikurno,95,classic,1,95.18,2,0,
+Eng,100,classic,1,105.26,1,0,
+Mamiii,0,speed,0,103.19,1,0,
+aorfong,90,hard,1,67.42,3,0,
+lookpeach,0,classic,0,30.13,1,1,
+Prayyyy,95,classic,1,99.23,2,0,
+portee,0,hard,0,98.18,1,0,
+Kengwa,80,classic,1,112.42,1,2,
+Lada,85,hard,1,57.25,2,1,
+Lookfai,85,hard,1,56.96,2,1,
+Lyan1111,0,classic,0,66.13,1,2,
+Kongji,123,speed,1,18.29,1,0,
+Lanna,85,classic,1,43.34,2,1,
+Prayyyy,95,classic,1,109.39,2,0,
+kkk,133,classic,1,13.49,1,0,
+Nongfai,103,speed,1,23.41,3,0,
+Kae,90,hard,1,106.61,3,0,
+Eng,0,speed,0,25.18,1,0,2025-05-03 10:36:45
+Lookfai,95,classic,1,97.5,2,0,2025-05-04 07:55:37
+portee,95,classic,1,78.38,2,0,2025-05-02 18:28:19
+portee,0,hard,0,51.51,2,1,2025-05-03 07:02:55
+kkk,132,classic,1,11.45,2,0,2025-05-02 17:15:11
+Jeeppu,0,speed,0,49.3,4,0,2025-05-01 18:30:51
+Nam1,80,hard,1,120.75,1,2,2025-05-03 22:08:44
+portee,134,classic,1,12.65,1,0,2025-05-06 03:42:50
+TK,80,speed,1,86.43,1,2,2025-05-07 03:29:55
+Janemiiiii,100,hard,1,39.28,1,0,2025-05-07 19:03:49
+Lookfai,80,classic,1,102.54,3,1,2025-05-03 06:16:02
+kao,100,classic,1,33.63,1,0,2025-05-02 03:22:17
+Chawee,0,speed,0,50.38,1,0,2025-05-07 02:54:53
+Juno,80,classic,1,36.96,3,1,2025-05-08 00:41:25
+aorfong,75,hard,1,109.27,2,2,2025-05-08 09:33:55
+FreenB,0,classic,0,105.7,2,1,2025-05-06 10:48:57
+Prayyyy,97,classic,1,26.35,3,0,2025-04-30 09:42:24
+ping,80,speed,1,58.92,1,2,2025-05-03 18:32:18
+Lookfai,85,hard,1,61.43,2,1,2025-04-30 17:15:28
+lookpeach,0,classic,0,30.75,1,2,2025-05-06 09:48:19
+JJay,93,classic,1,23.31,3,1,2025-05-02 11:17:47
+Nongfai,119,hard,1,20.26,1,0,2025-05-02 16:41:59
+kkk,127,classic,1,13.67,2,0,2025-05-06 12:45:58
+Bei,90,classic,1,73.02,3,0,2025-05-05 02:10:27
+Lanna,70,classic,1,32.97,3,2,2025-05-02 14:15:57
+Tomkai,75,classic,1,112.83,2,2,2025-05-04 09:33:11
+Nongfai,100,hard,1,85.32,1,0,2025-05-04 06:38:18
+Eng,100,classic,1,76.77,1,0,2025-05-01 19:10:06
+Kengwa,87,speed,1,26.1,1,2,2025-05-01 10:23:37
+Prayyyy,100,speed,1,38.41,1,0,2025-05-07 01:29:12
+Wan,75,classic,1,52.24,2,2,2025-05-03 12:50:00
+Lyan1111,127,classic,1,16.44,1,0,2025-05-06 20:31:46
+Kongji,125,speed,1,12.36,1,1,2025-05-06 01:47:58
+Luma,100,classic,1,81.96,1,0,2025-05-02 20:42:13
+TK,0,classic,0,106.96,3,0,2025-05-03 02:42:37
+Lanna,0,classic,0,81.75,2,0,2025-05-02 16:49:59
+Lada,95,classic,1,84.82,2,0,2025-05-01 05:56:14
+Tomkai,100,classic,1,108.42,1,0,2025-05-01 08:34:41
+Juno,0,speed,0,14.16,3,1,2025-05-02 19:17:33
+plam,90,classic,1,88.9,3,0,2025-05-07 04:08:31
+Lookfai,85,speed,1,108.04,2,1,2025-05-05 16:28:19
+Nanny,80,speed,1,34.96,3,1,2025-05-07 14:23:59
+plug,94,speed,1,20.05,2,2,2025-05-06 21:55:15
+Prayyyy,75,classic,1,117.25,2,2,2025-05-01 07:13:25
+Kiro,123,classic,1,13.2,3,0,2025-05-01 14:04:54
+Prayyyy,100,classic,1,107.55,1,0,2025-05-02 22:45:36
+Kae,95,classic,1,95.06,2,0,2025-05-04 08:47:31
+kkk,117,classic,1,21.05,1,0,2025-05-01 10:33:48
+Chawee,100,classic,1,41.75,1,0,2025-05-01 12:38:55
+kikurno,80,classic,1,49.65,3,1,2025-05-07 09:01:52
+TK,100,classic,1,45.82,1,0,2025-05-05 23:20:43
+Kiro,90,classic,1,53.68,3,0,2025-05-01 08:06:24
+TK,90,classic,1,31.8,3,0,2025-05-06 21:41:46
+Tomkai,95,classic,1,102.54,2,0,2025-05-01 16:00:48
+FreenB,100,classic,1,71.31,1,0,2025-05-03 16:12:12
+Lada,70,speed,1,87.12,3,2,2025-05-05 18:32:42
+Nam1,0,classic,0,21.19,1,0,2025-05-07 23:38:49
+Eng,70,hard,1,64.63,3,2,2025-05-07 01:47:50
+Nanny,100,hard,1,107.09,1,0,2025-05-01 20:23:01
+Lyan1111,127,classic,1,16.14,1,0,2025-05-04 15:21:23
+Wan,90,classic,1,90.48,1,1,2025-05-06 19:17:34
+Janemiiiii,95,classic,1,57.8,2,0,2025-05-01 01:25:33
+Prayyyy,0,classic,0,100.74,1,0,2025-05-05 06:41:40
+Lookfai,0,classic,0,23.9,3,0,2025-05-07 10:40:13
+kao,0,hard,0,74.28,2,2,2025-05-07 17:23:29
+FreenB,0,classic,0,63.58,2,0,2025-05-06 19:39:20
+Mamiii,80,hard,1,100.58,3,1,2025-05-03 09:10:42
+Mamiii,90,classic,1,33.47,1,1,2025-05-03 00:50:05
+Kae,90,hard,1,66.03,3,0,2025-05-07 07:48:01
+Nam1,0,speed,0,57.0,1,0,2025-05-06 02:33:50
+Kengwa,0,classic,0,84.01,1,0,2025-05-05 06:16:42
+Eng,90,classic,1,65.97,3,0,2025-05-02 01:17:43
+Eng,0,classic,0,27.71,2,2,2025-05-05 00:56:37
+Janemiiiii,0,hard,0,36.72,1,1,2025-04-30 12:43:33
+Jeeppu,80,classic,1,86.91,1,2,2025-04-30 19:13:21
+FreenB,100,hard,1,32.46,1,0,2025-05-01 00:12:49
+Janemiiiii,95,classic,1,48.57,2,0,2025-05-06 09:24:56
+Kae,90,classic,1,64.9,3,0,2025-05-08 01:13:13
+kkk,0,classic,0,2.31,1,1,2025-04-30 20:29:33
+kin,95,classic,1,107.95,2,0,2025-05-04 17:17:24
+kkk,111,classic,1,24.36,1,0,2025-05-05 15:03:49
+Juno,95,classic,1,45.21,2,0,2025-05-01 19:20:24
+kikurno,90,classic,1,32.56,1,1,2025-05-03 11:34:36
+kkk,110,classic,1,22.14,2,0,2025-05-06 11:48:17
+Bei,80,classic,1,90.35,1,2,2025-05-07 04:55:59
+FreenB,0,classic,0,20.31,1,2,2025-05-06 07:23:42
+Kengwa,0,classic,0,77.99,1,1,2025-05-01 01:17:54
+Lada,90,classic,1,114.63,1,1,2025-05-08 06:30:57
+hana,80,classic,1,33.4,1,2,2025-05-06 02:20:21
+kkk,131,classic,1,11.53,2,0,2025-05-08 07:38:32
+Lookfai,100,hard,1,85.64,1,0,2025-05-01 12:43:35
+Mamiii,0,hard,0,41.17,3,0,2025-05-02 03:56:10
+Bei,0,hard,0,26.75,1,2,2025-05-03 23:52:02
+Tomkai,0,classic,0,15.98,1,0,2025-05-06 19:42:57
+Kiro,0,classic,0,82.56,1,2,2025-05-01 11:44:45
+Bei,100,classic,1,92.83,1,0,2025-04-30 14:00:03
+Nongfai,100,classic,1,116.71,1,0,2025-05-06 06:25:05
+FreenB,0,classic,0,42.85,2,0,2025-05-04 15:48:14
+Mamiii,0,classic,0,85.1,2,0,2025-05-05 10:01:00
+FreenB,0,speed,0,109.76,2,0,2025-05-07 08:39:02
+Bei,75,classic,1,41.37,2,2,2025-04-30 09:12:25
+Nongfai,0,classic,0,90.43,3,2,2025-05-01 03:06:59
+aorfong,100,speed,1,40.9,1,0,2025-05-06 05:13:28
+Kae,80,hard,1,106.4,1,2,2025-05-02 03:39:08
+aorfong,100,speed,1,68.5,1,0,2025-04-30 16:47:05
+Lanna,100,hard,1,39.05,1,0,2025-04-30 11:23:26
+Mamiii,0,hard,0,109.21,2,2,2025-05-03 06:52:39
+Lanna,100,classic,1,104.81,1,0,2025-05-01 10:40:49
+aorfong,0,classic,0,37.15,1,0,2025-05-08 11:08:55
+Eng,100,classic,1,89.32,1,0,2025-05-06 00:48:34
+Lanna,95,classic,1,37.0,2,0,2025-05-01 18:02:46
+Nanny,96,classic,1,19.02,2,2,2025-05-05 02:40:15
+Lookfai,120,classic,1,19.85,1,0,2025-05-06 03:36:58
+Nanny,0,hard,0,97.57,3,0,2025-05-01 15:02:00
+TK,85,speed,1,77.57,2,1,2025-05-02 00:30:12
+Bei,105,classic,1,19.63,2,1,2025-05-03 06:43:25
+Lada,90,classic,1,109.5,3,0,2025-05-03 13:10:31
+FreenB,95,classic,1,91.46,2,0,2025-05-02 22:08:50
+Nongfai,80,classic,1,85.9,1,2,2025-05-01 10:02:14
+kkk,100,classic,1,69.81,1,0,2026-05-10 14:58:10
+kkk,0,speed,0,30.14,0,0,2026-05-10 14:58:58
+kkk,0,hard,0,6.87,0,0,2026-05-10 14:59:18
+kkk,105,classic,1,27.46,1,0,2026-05-10 15:15:37
+kkk,104,classic,1,28.0,1,0,2026-05-10 15:16:13
+kkk,0,classic,0,16.43,0,2,2026-05-10 15:16:36
+kkk,0,speed,0,30.19,0,0,2026-05-10 15:17:26
+kkk,0,hard,0,145.13,0,0,2026-05-10 15:20:02
+kkk,95,hard,1,56.49,2,0,2026-05-10 15:21:00
+kkk,95,classic,1,52.64,2,0,2026-05-10 18:05:59
+kkk,0,classic,0,32.3,1,0,2026-05-10 18:06:36
+kkk,0,classic,0,36.46,0,0,2026-05-10 18:07:14
+kkk,0,classic,0,12.29,0,0,2026-05-10 18:07:27
+kkk,143,classic,1,8.34,1,0,2026-05-10 18:07:37
+kkk,100,classic,1,70.23,1,0,2026-05-10 18:17:21
+kkk,0,classic,0,0.9,0,0,2026-05-10 18:17:41
+kkk,0,speed,0,30.15,0,0,2026-05-10 18:38:35
+kkk,0,hard,0,2.45,0,0,2026-05-10 18:38:42
+kkk,0,hard,0,1.77,0,0,2026-05-10 18:38:46
+kkk,0,hard,0,1.18,0,0,2026-05-10 18:38:48
+kkk,0,hard,0,1.39,0,0,2026-05-10 18:38:51
+kkk,0,hard,0,1.02,0,0,2026-05-10 18:38:54
+kkk,0,speed,0,30.15,0,0,2026-05-10 18:40:13

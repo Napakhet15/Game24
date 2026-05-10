@@ -3,7 +3,12 @@
     "username": "kkk",
     "password": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
     "achievements": [
-      "first_blood"
+      "first_blood",
+      "getting_warmed_up",
+      "no_hint_master",
+      "hot_streak",
+      "unbreakable",
+      "marathon"
     ]
   },
   {
@@ -180,6 +185,117 @@
       "first_blood",
       "getting_warmed_up",
       "hot_streak"
+    ]
+  },
+  {
+    "username": "Lanna",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "achievements": [
+      "first_blood",
+      "hot_streak"
+    ]
+  },
+  {
+    "username": "aorfong",
+    "password": "b3282a2f2a28757b3a18ab833de16a9c54518c0b0cf493e3f0a7cf09386f326a",
+    "achievements": [
+      "first_blood",
+      "hot_streak"
+    ]
+  },
+  {
+    "username": "TK",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Kae",
+    "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "achievements": [
+      "first_blood",
+      "hot_streak"
+    ]
+  },
+  {
+    "username": "Eng",
+    "password": "bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "FreenB",
+    "password": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Nongfai",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Tomkai",
+    "password": "e0bc60c82713f64ef8a57c0c40d02ce24fd0141d5cc3086259c19b1e62a62bea",
+    "achievements": [
+      "first_blood",
+      "hot_streak"
+    ]
+  },
+  {
+    "username": "Bei",
+    "password": "fe91a760983d401d9b679fb092b689488d1f46d92f3af5e9e93363326f3e8aa4",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Prayyyy",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Nanny",
+    "password": "91b4d142823f7d20c5f08df69122de43f35f057a988d9619f6d3138485c9a203",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Lada",
+    "password": "b7e307660e1611cb42bcb28e4bb4a6465ccb5ec2e028ca4be8b84e8787929a38",
+    "achievements": [
+      "first_blood",
+      "hot_streak"
+    ]
+  },
+  {
+    "username": "Lookfai",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "achievements": [
+      "first_blood",
+      "hot_streak"
+    ]
+  },
+  {
+    "username": "Mamiii",
+    "password": "481f6cc0511143ccdd7e2d1b1b94faf0a700a8b49cd13922a70b5ae28acaa8c5",
+    "achievements": [
+      "first_blood"
+    ]
+  },
+  {
+    "username": "Janemiiiii",
+    "password": "793a84a351bd364d2f0323b67b39407711e54bc4748c439fb32734538ef8dd15",
+    "achievements": [
+      "first_blood"
     ]
   }
 ]
