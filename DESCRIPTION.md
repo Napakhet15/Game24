@@ -184,7 +184,7 @@ The Statistics page analyzes the following features:
 
 ## 8. External Sources
 
-| ประเภท | ชื่อ / แหล่งที่มา | License |
+| Type | Name / Source | License |
 |---|---|---|
 | UI Framework | [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) by Tom Schimansky | MIT |
 | Sound | [Pygame](https://www.pygame.org) | LGPL |
