@@ -14,7 +14,7 @@ Game 24 Puzzle is a number puzzle game where players are given a set of numbers 
 To clone this project:
 
 ```sh
-git clone https://github.com/<username>/game24-puzzle.git
+git clone https://github.com/Napakhet15/Game24.git
 ```
 
 ### Windows
