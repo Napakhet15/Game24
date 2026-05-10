@@ -40,7 +40,7 @@
 
   *(See `screenshots/` folder for all screenshots)*
 
-- **Proposal:** [proposal.pdf](./proposal.pdf)
+- **Proposal:** [proposal.pdf](./Programming_2_(Proposal).pdf)
 
 - **YouTube Presentation:**
 
@@ -78,7 +78,7 @@ The class diagram below shows the main classes, their attributes, key methods, a
 
 ![UML Class Diagram](UML.png)
 
-**Attachment:** [uml.pdf](./uml.pdf)
+**Attachment:** [uml.pdf](./UML.pdf)
 
 Main relationships:
 - `Game24App` composes all page classes (`GamePage`, `ResultPage`, `StatisticsPage`, etc.)
